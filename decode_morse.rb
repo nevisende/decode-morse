@@ -14,11 +14,11 @@ puts decode_char('.-')
 
 def decode_word(word)
   decoded_word = []
-  char = word.split(' ')
+  char = word.split
   char.each do |i|
     decoded_word << decode_char(i)
   end
-  decoded_word = decoded_word.join('')
+  decoded_word = decoded_word.join
 end
 
 puts decode_word('-- -.--')
